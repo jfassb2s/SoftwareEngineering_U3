@@ -78,7 +78,6 @@ class ContainerTest {
         container.setPersistenceStrategy(new PersistenceStrategyStream<Member>());
 
         try {
-
             assertEquals(container.size(), 0);
 
             container.addMember(new MemberKonkret(1337));
